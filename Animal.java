@@ -1,6 +1,6 @@
 public class Animal {
 
-    private String type;
+    protected String type; // because it used in Dog method -> makeNoise()
     private String size;
     private double weight;
 

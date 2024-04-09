@@ -1,0 +1,20 @@
+                                    ANIMAL
+                                    type: String
+                                    size: String
+                                    weight: double
+                                    --------------
+                                    move(String speed)
+                                    makeNoise()
+                                        |
+                                        | inherits
+                                        |
+                 -----------------------------------------------
+                 |                                             | extends Animal
+                 DOG                                  FISH
+                 earShape: String                     fins: int
+                 tailShape: String                    gills: int
+                 -----------------                    ----------------
+                 bark()                               moveMuscles()
+                 run()                                moveBackFins()
+                 walk()
+                 wagTail()
